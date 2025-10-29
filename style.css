@@ -11,4 +11,17 @@ a {
 
 ul {
   list-style-type: none;
+  
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  padding: 2rem;
+  text-align: center;
+}
+
+li:hover {
+  background-color: #eee;
 }
